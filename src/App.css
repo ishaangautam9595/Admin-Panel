@@ -1,0 +1,132 @@
+.loader {
+  position: fixed !important;
+  left    : 0px !important;
+  top     : 50% !important;
+  width   : 100% !important;
+  height  : 100% !important;
+  z-index : 9999;
+}
+
+.required {
+  color  : red;
+  padding: 0 2px;
+}
+
+.flex {
+  display        : flex;
+  justify-content: space-between;
+}
+
+.check {
+  display: flex;
+}
+.check .field {
+  padding-right: 20px;
+}
+
+.buttons {
+  display        : flex;
+  justify-content: flex-end;
+}
+
+.apps{
+  display: flex;
+}
+
+.ui.card {
+margin: 20px;
+}
+
+
+.custom-disabled,
+.custom-disabled:hover {
+  cursor          : not-allowed !important;
+  background-color: transparent !important;
+  color           : rgba(40, 40, 40, .3) !important;
+}
+
+.menuItem:hover,
+.active-menuItem {
+  background-color: #646262 !important;
+  transition      : 0.3s;
+}
+
+.item.menuItem {
+  padding    : 15px 0;
+  font-size  : large;
+  font-weight: 800;
+}
+
+Input {
+  overflow-x: auto;
+}
+
+select option {
+  max-width: 400px !important;
+  word-wrap: break-word !important;
+  display  : inline-block;
+}
+
+td {
+  max-width: 130px;
+}
+
+.eye {
+  position: absolute;
+  right   : 20px;
+  top     : 13px;
+}
+
+.pwdinput {
+  position: relative;
+}
+
+.ui.celled.table tr td,
+.ui.celled.table tr th {
+  max-width    : 290px;
+  overflow     : hidden;
+  text-overflow: ellipsis;
+}
+
+.button {
+  border-radius: 30px !important;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.d-flex {
+  display: inline-flex;
+}
+
+.icon-large>.user {
+  font-size: 1.5rem;
+}
+
+.custom-border {
+  border       : 1px solid rgba(34, 36, 38, .1);
+  border-top   : 0;
+  border-radius: 5px;
+}
+
+.eye {
+  position: absolute;
+  right   : 20px;
+  top     : 13px;
+  cursor  : pointer;
+}
+
+.footer_content {
+  font-size: 15px;
+  color    : grey;
+  padding  : 0 5px;
+}
+
+.footer_content:hover {
+  text-decoration: underline;
+}
+.ui.fitted.toggle.checkbox {
+  width: 3.5rem;
+  z-index: 0;
+}
